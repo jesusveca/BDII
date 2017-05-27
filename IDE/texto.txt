@@ -1,0 +1,16 @@
+CREATE TABLE personas ({id_pers} [integer], {nombre} [varchar(20)], {descripcion} [varchar(20)])
+CREATE TABLE ciudades ({id_ciu} [integer], {nombre} [varchar(20)], {descripcion} [varchar(20)])
+CREATE TABLE animales ({id_an} [integer], {nombre} [varchar(20)], {descripcion} [varchar(20)])
+CREATE TABLE vegetales ({id_v} [integer], {nombre} [varchar(20)])
+CREATE TABLE nombres_de_ciudades ({id_nomCiud} [integer], {nombre} [varchar(20)], {descripcion} [varchar(20)])
+#
+INSERT INTO animales VALUES (1,"murcielago","mamifero y volador",)
+INSERT INTO animales VALUES (3,"caballo","mamifero y corredor",)
+INSERT INTO animales VALUES (4,"reno","mamifero y resistente",)
+INSERT INTO animales VALUES (2,"tortuga","oviparo y marino",)
+INSERT INTO animales VALUES (5,"leon","mamifero y cazador","mamu",)
+INSERT INTO personas VALUES (1,"lucia","estudiante y amiga",)
+DELETE FROM animales WHERE (id=1)
+DELETE FROM personas WHERE (id=2) AND (nombre="Lucas")
+el caso delete * from animales # tambien funciona
+#
