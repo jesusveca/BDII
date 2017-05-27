@@ -111,7 +111,7 @@ for n, sql in enumerate(data, 1): # read the entire text
                         if str(value) not in line:
                             fout.write(line)
 
-            elif number_braces>1: # we don't made the case: "WHERE id=1 AND nombre="renato"" still, but in the future 
+            elif number_braces>1: # we don't make the case: "WHERE id=1 AND nombre="renato"" not yet, but in the future 
                 print " "
 
         elif index333==9: # the other case if it is * , DELETE all the register in table
